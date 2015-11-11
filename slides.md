@@ -1,39 +1,6 @@
-<!-- .slide: data-background="images/ElmSeattle.png" class="translucent" -->
-
-# Why Elm?
-
-Ivan Storck
-
-http://seattlejs.elmseattle.org
-
----
-
-<!-- .slide: data-background="images/mission-impossible-skeptical.gif" -->
-
-???
-
-You are most likely skeptical
----
-
-<!-- .slide: data-background="images/mission-impossible-hanging.gif" -->
-
-???
-
-And this is probably a mission impossible - trying to get a javascript meetup to try another language.
-
----
-<!-- .slide: data-background="images/minons-happy.gif" -->
-
-# Elm? <!-- .element class="white-shadow" -->
-
-???
-
-And I may come off as so happy that I am speaking minion gibberish
----
-
 <!-- .slide: data-background="images/patience.gif" -->
 
-## Give it a minute <!-- .element: class="white-shadow" -->
+## Give it a minute <!-- .element: class="white-shadow" style="margin: 8em 0 0 4em;" -->
 
 ???
 
@@ -41,7 +8,7 @@ But... give it 5 minutes
 ---
 
 <!-- .slide: data-background="images/ivan-code-fellows-teaching.jpg" -->
-<!-- .slide: class="translucent" -->
+<!-- .slide: class="translucent" style="margin-top: 4em;" -->
 
 ### Web Developer, Teacher & Entrepreneur
 
@@ -58,7 +25,7 @@ Based on my experience and talents, I try to bridge the gap between Computer Sci
 
 ---
 
-![terminator](images/SarahJS.png)
+![terminator](images/SarahJS.png) <!-- .element: style="width: 150%" -->
 
 ### We got JavaScript &mdash; not Scheme
 
@@ -70,9 +37,11 @@ If Brendan Eich had his way, we would all be writing Scheme, a functional langua
 
 ### `Undefined is not a function` <!-- .element: class="red" -->
 
-Tony Hoare said inventing `NULL` was his *Billion Dollar Mistake*
+Tony Hoare said inventing `NULL` was his
 
-*Why* are we still using it and seeing it every day?
+*Billion Dollar Mistake*
+
+*Why* are we still using it and seeing it every day? <!-- .element: style="margin-top: 8em;" -->
 
 ---
 
@@ -84,7 +53,7 @@ How do you center an image on the page?
 
 ---
 
-## Build tools are here to stay
+## Build tools: here to stay
 
 Grunt <!-- .element: class="fragment" -->
 , Gulp <!-- .element: class="fragment" -->
@@ -92,17 +61,49 @@ Grunt <!-- .element: class="fragment" -->
 , Make <!-- .element: class="fragment" -->, Rake, Jake, <!-- .element: class="fragment" -->
 *ad nauseum* <!-- .element: class="fragment" -->
 
+Minification - you should be doing this if you're not <!-- .element: class="fragment" -->
+
 CoffeeScript— pioneered the way, and is still active <!-- .element: class="fragment" -->
 
 Babel — you're compiling JS to JS <!-- .element: class="fragment" -->
 
 React — you're mixing in HTML, CSS, anyway <!-- .element: class="fragment" -->
 
-##*Why not design something nice from the beginning?* <!-- .element: class="fragment red" -->
 
-What would that look like? <!-- .element: class="fragment" -->
+
+###*Why not design something nice from the beginning?* <!-- .element: class="fragment red more-margin" -->
+
+???
+
+What would that look like?
 
 ---
+
+<!-- slide: data-backgroud-color="#000" -->
+
+> What modern **functional languages** are about is developing **ever-better tools** to help in this style of programming, thus providing easier ways to specify **powerful data types**, manipulate them at a high level, break them apart and recombine them, and to do all this with a degree of **safety** and reusability and without too much syntactic baggage or implementation detail cluttering up the code.
+
+
+---
+
+## Functional Programming offers&hellip;
+- Immutability - Values don't change unexpectedly <!-- .element: class="fragment" -->
+- Pure functions - predictable and testable outcomes <!-- .element: class="fragment" -->
+- Pattern Matching - clean code over complex if statements <!-- .element: class="fragment" -->
+- Declarative vs Imperative <!-- .element: class="fragment" -->
+- Scalable <!-- .element: class="fragment" -->
+- Reactive <!-- .element: class="fragment" -->
+
+???
+
+Imperative - one instruction after another.
+Declarative - describing what you want to have happen
+
+You probably already know a great declarative programming language, SQL.
+And CSS is declarative too.
+
+---
+
 ## Elm is&hellip;
 
 - The best of functional programming in your browser <!-- .element: class="fragment" -->
@@ -123,24 +124,6 @@ import Html.Attributes exposing (class)
 main =
   span [class "welcome-message"] [text "Hello, World!"]
 ```
----
-
-## Functional Programming is&hellip;
-- Immutability - Values don't change unexpectedly <!-- .element: class="fragment" -->
-- Pure functions - predictable and testable outcomes <!-- .element: class="fragment" -->
-- Pattern Matching - clean code over complex if statements <!-- .element: class="fragment" -->
-- Declarative vs Imperative <!-- .element: class="fragment" -->
-- Scalable <!-- .element: class="fragment" -->
-- Reactive <!-- .element: class="fragment" -->
-
-???
-
-Imperative - one instruction after another.
-Declarative - describing what you want to have happen
-
-You probably already know a great declarative programming language, SQL.
-And CSS is declarative too.
-
 ---
 
 # Don't fear the type system
@@ -191,7 +174,8 @@ apm install linter linter-elm-make language-elm
 
 ---
 
-# Demonstration of Elm Brunch
+## Demonstration of
+## Elm Brunch
 
 ---
 
@@ -212,6 +196,6 @@ apm install linter linter-elm-make language-elm
 - [Ivan Storck](https://twitter.com/ivanoats)
 
 ---
-### Organizations:
+### Organizations on Twitter:
 - [Elm](https://twitter.com/elmlang)
 - [ElmSeattle](https://twitter.com/elmseattle)
