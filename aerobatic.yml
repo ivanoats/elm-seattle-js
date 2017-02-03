@@ -1,0 +1,4 @@
+# Aerobatic website manifest
+id: f42caa55-f9ed-439b-a194-071310d48235
+plugins:
+  - name: webpage
